@@ -1,0 +1,86 @@
+H1 { font: 36pt serif }
+H2 { font: 25pt serif }
+
+
+input::placeholder {
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 20px;
+    
+}
+  input {
+    /* Add your custom styles here */
+    padding: 10px;
+    border: 1cap solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #222A36;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 50px;
+  }
+  table th {
+    background-color: #222A36;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  table tr:nth-child(even) td {
+    background-color: #dbedff;
+  }
+  
+  table tr:hover td {
+    background-color: #accbff   ;
+  }
+  table td {
+    background-color: #dbedff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+  }
+  button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    background-color:#c0c4c7;
+    padding: 1em 3em;
+    border: none;
+    border-radius: .6rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+  .up{
+    background-color:#c0c4c7;
+  }
+  .del{
+    background-color:#c0c4c7;
+  }
+  
+  body{
+  background: #c4d3f6  ; /* fallback for old browers */
+  background: linear-gradient(to right,#c4d3f6,#DFFFFA);
+  justify-content: center;
+  align-items: center;
+  }

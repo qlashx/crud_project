@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURD Project</title>
+    <link rel="stylesheet" type="text/css" href="cs.css">
+</head>
+<body>
+   
+    <center>
+        <h1 >CRUD project</h1>
+        <h2> product managment project</h2>
+        <div id="form__group">
+        <input type="text" id="productname" placeholder="product name">
+ 
+        <input type="number" id="productprice" placeholder="product price">
+ 
+        <input type="text" id="productcategory" placeholder="product category">
+        <br>
+        <br>
+        <button type="submit" onclick="onclick_add();" id="ADD">ADD</button>
+        <button type="submit" class="update" style="display: none;" id="update" onclick="update_data()">UPDATE</button>
+        <button type="reset" onclick="onclick_reset();" >RESET</button>
+        <br>
+        <br>
+    <table border="2">
+        <thead>
+            <th> index </th>
+            <th> product name </th>
+            <th> product price </th>
+            <th> product category </th>
+            <th> update </th>
+            <th> delete </th>
+        </thead>
+        <tbody id="data">
+        </tbody>
+
+    </table>
+</center>
+    <script src="main.js"></script>
+</body>
+</html>
